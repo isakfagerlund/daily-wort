@@ -6,12 +6,30 @@
     "moduleResolution": "node",
     "baseUrl": ".",
     "paths": {
-      "@/components/*": ["components/*"],
-      "@/hooks/*": ["hooks/*"],
-      "@/lib/*": ["lib/*"],
-      "@/types": ["types"]
+      "@/components/*": [
+        "components/*"
+      ],
+      "@/hooks/*": [
+        "hooks/*"
+      ],
+      "@/lib/*": [
+        "lib/*"
+      ],
+      "@/types": [
+        "types"
+      ]
     }
   },
-  "include": ["**/*.ts", "**/*.tsx", "__tests__/**/*.ts"],
-  "exclude": ["node_modules", "babel.config.js", "metro.config.js"]
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "__tests__/**/*.ts",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "babel.config.js",
+    "metro.config.js"
+  ]
 }
