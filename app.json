@@ -21,7 +21,7 @@
     "plugins": [
       "expo-router",
       [
-        "react-native-voice",
+        "@react-native-voice/voice",
         {
           "microphonePermission": "We use the microphone to capture your voice notes.",
           "speechRecognitionPermission": "We use speech recognition to transcribe quick notes."

@@ -8,7 +8,7 @@ Recall is a lightweight, local-first contact memory app built with Expo Router a
 npx create-expo-app recall --template
 cd recall
 npx expo install expo-router expo-sqlite expo-contacts
-yarn add react-native-voice
+yarn add @react-native-voice/voice
 ```
 
 Copy the source in this repository into your project directory, then run:
@@ -26,7 +26,7 @@ yarn test
 
 ### Speech recognition
 
-The microphone button uses [`react-native-voice`](https://github.com/react-native-voice/voice), which requires a development build when running on device. Use Expo Dev Client or EAS development builds:
+The microphone button uses [`@react-native-voice/voice`](https://github.com/react-native-voice/voice), which requires a development build when running on device. Use Expo Dev Client or EAS development builds:
 
 ```bash
 npx expo prebuild --platform ios
